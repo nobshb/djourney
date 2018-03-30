@@ -107,10 +107,10 @@ TextureImporter:
       name: chicken_sp_0
       rect:
         serializedVersion: 2
-        x: 85
-        y: 60
-        width: 211
-        height: 156
+        x: 33
+        y: 26
+        width: 85
+        height: 81
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -121,10 +121,10 @@ TextureImporter:
       name: chicken_sp_1
       rect:
         serializedVersion: 2
-        x: 376
-        y: 60
-        width: 198
-        height: 161
+        x: 126
+        y: 26
+        width: 86
+        height: 81
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -135,10 +135,10 @@ TextureImporter:
       name: chicken_sp_2
       rect:
         serializedVersion: 2
-        x: 654
-        y: 60
-        width: 202
-        height: 156
+        x: 213
+        y: 26
+        width: 85
+        height: 81
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

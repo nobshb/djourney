@@ -107,10 +107,10 @@ TextureImporter:
       name: dog_i_sp_0
       rect:
         serializedVersion: 2
-        x: 206
-        y: 78
-        width: 112
-        height: 171
+        x: 94
+        y: 24
+        width: 56
+        height: 90
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -121,10 +121,10 @@ TextureImporter:
       name: dog_i_sp_1
       rect:
         serializedVersion: 2
-        x: 395
-        y: 78
-        width: 112
-        height: 171
+        x: 169
+        y: 24
+        width: 55
+        height: 90
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -135,10 +135,10 @@ TextureImporter:
       name: dog_i_sp_2
       rect:
         serializedVersion: 2
-        x: 588
-        y: 78
-        width: 112
-        height: 171
+        x: 248
+        y: 24
+        width: 55
+        height: 89
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

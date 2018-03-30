@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 2c750b04adda29540bd5baa3ca0055ae
+timeCreated: 1522426060
+licenseType: Free
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Comic Book Commando Bold
+  fontNames:
+  - Comic Book Commando Bold
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

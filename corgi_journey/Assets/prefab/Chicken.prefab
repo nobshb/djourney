@@ -23,6 +23,7 @@ GameObject:
   - component: {fileID: 95591034682981056}
   - component: {fileID: 61895814153274562}
   - component: {fileID: 50438900885867718}
+  - component: {fileID: 114295152639407834}
   m_Layer: 8
   m_Name: Chicken
   m_TagString: Enemy
@@ -37,7 +38,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1070038557872812}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -105,6 +106,22 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &114295152639407834
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1070038557872812}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9dacc357a1040d14c964829c9c1573ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveTime: 0.1
+  blockingLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  playerDamage: 30
 --- !u!212 &212425277350880270
 SpriteRenderer:
   m_ObjectHideFlags: 1

@@ -23,6 +23,8 @@ GameObject:
   - component: {fileID: 95106182649816940}
   - component: {fileID: 61535635431574720}
   - component: {fileID: 50674727204711220}
+  - component: {fileID: 114674705177875876}
+  - component: {fileID: 114955641177759996}
   m_Layer: 8
   m_Name: Dog
   m_TagString: Player
@@ -37,8 +39,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1690520061284882}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.25, y: 1.25, z: 1.25}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -105,6 +107,44 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &114674705177875876
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1690520061284882}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5227e704d92bd5f478dce750bc61f70e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveTime: 0.1
+  blockingLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  restartLevelDelay: 1
+  pointsPerFlower: 10
+  pointsPerFood: 30
+  foodText: {fileID: 0}
+--- !u!114 &114955641177759996
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1690520061284882}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ad7cc25d721bec49830cd9272edb236, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveTime: 0.1
+  blockingLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  restartLevelDelay: 1
+  pointsPerFood: 10
+  pointsPerSoda: 20
+  wallDamage: 1
 --- !u!212 &212164681814441996
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -138,7 +178,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1219090155
   m_SortingLayer: 3
-  m_SortingOrder: 0
+  m_SortingOrder: 5
   m_Sprite: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
